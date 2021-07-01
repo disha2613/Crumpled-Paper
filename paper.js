@@ -25,7 +25,7 @@ display()
 
 			push()
 			translate(paperpos.x, paperpos.y);
-			ellipse(0,0,this.r, this.r);
+			//ellipse(0,0,this.r, this.r);
 			imageMode(CENTER);
 			image(this.image, 0,0, this.r);
 			pop()
